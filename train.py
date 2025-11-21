@@ -42,6 +42,7 @@ def train(generations=100, population_size=20, max_time=30):
     
     # Training loop
     best_fitness_ever = 0
+    fitness_scores = np.zeros(population_size)
     
     try:
         for gen in range(generations):

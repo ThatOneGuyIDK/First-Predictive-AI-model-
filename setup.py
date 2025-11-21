@@ -28,10 +28,4 @@ setup(
         "torch>=2.0.0",
         "matplotlib>=3.7.0",
     ],
-    entry_points={
-        "console_scripts": [
-            "train-car=train:main",
-            "play-car=play:main",
-        ],
-    },
 )
