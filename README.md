@@ -16,6 +16,12 @@ This project implements a self-driving car that learns to navigate a race track 
 - **Manual Control**: Play the game yourself to test the track
 - **AI Control**: Watch trained models drive autonomously
 
+## Quick Start
+
+**New to the project? Check out [QUICKSTART.md](QUICKSTART.md) for a 5-minute getting started guide!**
+
+Want to understand the architecture? See [ARCHITECTURE.md](ARCHITECTURE.md) for detailed system design.
+
 ## Installation
 
 1. Clone the repository:
@@ -27,6 +33,11 @@ cd First-Predictive-AI-model-
 2. Install dependencies:
 ```bash
 pip install -r requirements.txt
+```
+
+3. Verify installation:
+```bash
+python test_setup.py
 ```
 
 ## Usage
